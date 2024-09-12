@@ -1,0 +1,9 @@
+
+<div class="div">
+    <p class="p">Login</p><br><br><br><br><br>
+    <input  class="par"[(ngModel)]="username" placeholder="Username" /> <br> <br>
+    <input class="par" [(ngModel)]="password" type="password" placeholder="Password" /> <br> <br>
+    <button class="button" (click)="login()">Login</button> <br> <br>
+    <p *ngIf="errorMessage">{{ errorMessage }}</p>
+   
+  </div>

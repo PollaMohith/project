@@ -1,0 +1,20 @@
+{
+    "products": [
+      { "id": 1, "name": "Apple", "category": "Category 1", "price": 10.00, "imageUrl":"https://uxwing.com/wp-content/themes/uxwing/download/fruits-vegetables/fresh-apple-icon.png" },
+      { "id": 2, "name": "PineApple", "category": "Category 2", "price": 20.00, "imageUrl":"https://uxwing.com/wp-content/themes/uxwing/download/fruits-vegetables/pineapple-fruit-icon.png" },
+      { "id": 3, "name": "Orange", "category": "Category 3", "price": 15.00, "imageUrl":"https://uxwing.com/wp-content/themes/uxwing/download/fruits-vegetables/orange-icon.png" },
+       {"id": 4, "name": "Straw Berry", "category": "Category 4", "price": 25.00, "imageUrl":"https://uxwing.com/wp-content/themes/uxwing/download/fruits-vegetables/strawberry-fruit-icon.png" },
+       {"id": 5, "name": "Bananas", "category": "Category 5", "price": 18.00, "imageUrl": "https://uxwing.com/wp-content/themes/uxwing/download/fruits-vegetables/bananas-icon.png"},
+       {"id": 6, "name": "Blue Berry", "category": "Category 6", "price": 30.00, "imageUrl": "https://uxwing.com/wp-content/themes/uxwing/download/fruits-vegetables/blueberry-icon.png"},
+       {"id": 7, "name": "Grapes", "category": "Category 7", "price": 35.00, "imageUrl":"https://uxwing.com/wp-content/themes/uxwing/download/fruits-vegetables/purple-grapes-icon.png" },
+       {"id": 8, "name": "Water Melon", "category": "Category 8", "price": 12.00, "imageUrl":"https://uxwing.com/wp-content/themes/uxwing/download/fruits-vegetables/watermelon-fruit-icon.png" },
+       {"id": 9, "name": "Mango", "category": "Category 9", "price": 22.00, "imageUrl": "https://uxwing.com/wp-content/themes/uxwing/download/fruits-vegetables/mango-fruit-icon.png"},
+       {"id": 10, "name": "Kiwi Fruit", "category": "Category 10", "price": 40.00, "imageUrl":"https://uxwing.com/wp-content/themes/uxwing/download/fruits-vegetables/kiwi-food-icon.png" }
+    ],
+    "users": [
+      { "id": 1, "username": "admin", "password": "admin", "role": "admin" },
+      { "id": 2, "username": "user", "password": "user", "role": "user" }
+    ],
+    "orders": []
+  }
+  

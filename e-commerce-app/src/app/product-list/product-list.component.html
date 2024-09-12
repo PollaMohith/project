@@ -1,0 +1,25 @@
+
+
+<div class="product-list-container">
+  
+  <div class="search-bar">
+    <input
+      type="text"
+      [(ngModel)]="searchTerm"
+      (ngModelChange)="filterProducts()"
+      placeholder="Search products"/>
+      <button (click)="onSearch()">Search</button>
+  </div>
+     <br><br>
+  
+  <div class="product-card" *ngFor="let product of filteredProducts">
+    <img [src]="product.imageUrl" alt="{{ product.name }}" />
+    <h3>{{ product.name }}</h3>
+    
+    <p>{{ product.price | currency }}</p>
+    <button (click)="addToCart(product)">Add to Cart</button>
+  </div>
+    <br><br>
+  <button (click)="onPageChange(currentPage - 1)" [disabled]="currentPage === 1">Previous</button> <br><br>
+    <button (click)="onPageChange(currentPage + 1)">Next</button>
+</div>

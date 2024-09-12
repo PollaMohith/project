@@ -1,0 +1,11 @@
+<div  class="checkout-container">
+    <h2>Checkout</h2>
+    <div *ngFor="let item of cart"  class="checkout-item">
+      <p>{{ item.name }} - {{ item.price | currency }} x {{ item.quantity }}</p>
+    </div>
+    <h3>Total: {{ total | currency }}</h3>
+    <button class="place-order-button" (click)="placeOrder()">Place Order</button>
+
+
+  </div>
+  
